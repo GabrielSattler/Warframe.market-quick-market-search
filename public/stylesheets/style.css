@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  background: rgb(20, 20, 30);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg{
+  opacity: .1;
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.MainContainer{
+  text-align: center;
+  margin-top: 35vh;
+}
+
+.hide{
+  display: none;
+}
+
+h1{
+  font-size: 3em;
+}
+
+input{
+  font-size: 2em;
+}
+
+button{
+  font-size: 2em;
+}
+
+img{
+  display: inline;
+  margin: 0;
+}
+
+.price{
+  display: inline;
+  font-size: 12em;
+  margin: 0;
+  line-height: 10vh;
+}
+
+.priceBlock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
